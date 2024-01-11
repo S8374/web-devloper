@@ -5,6 +5,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 200px;
 }
 .ern{
     color: var(--Dark-01, #181818);
@@ -24,8 +25,10 @@ line-height: normal;
     font-size: 20px;
     font-weight: 700;
     color: white;
-    padding: 18 35px;
-
+    /*padding: 18 35px;*/
+    width: 150px;
+    height: 64px;
+    
 }
 nav >ul{
     display: flex;
@@ -37,4 +40,18 @@ nav li{
 nav a {
     text-decoration: none;
     color: #474747;
+}
+.main{
+    background-color:  #FFF8F3;
+    background: url(images/header_bg.png);
+    background-repeat: no-repeat;
+
+}
+.banner{
+    padding: 30 30 0px 150px ;
+    display: flex;
+    align-items: center;
+}
+.profile{
+    width: 500px;
 }
